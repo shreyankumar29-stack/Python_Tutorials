@@ -1,3 +1,4 @@
+# Example1
 # def square(x):
 #     return x ** 2
 
@@ -8,18 +9,42 @@
 
 # print(square)
 
-def square(x):
-    return x ** 2
+# ---
 
-def my_map(func, arg_list):
-    result = []
-    for i in arg_list:
-        result.append(func(i))
-    return result
+# # Example2
+# def square(x):
+#     return x * x
 
-squares = my_map(square, [1, 2, 3, 4, 5])
+# def cube(x):
+#     return x * x * x
 
-print(squares)
+# def my_map(func, arg_list):
+#     result = []
+#     for i in arg_list:
+#         result.append(func(i))
+#     return result
 
-def cube(x):
-    return x ** 3
+# squares = my_map(square, [1, 2, 3, 4, 5])
+
+# print(squares)
+
+# def cube(x):
+#     return x * x * x
+
+#---
+
+# def square(x):
+#     return x * x
+
+# def cube(x):
+#     return x * x * x
+
+# def my_map(func, arg_list):
+#     result = []
+#     for i in arg_list:
+#         result.append(func(i))
+#     return result
+
+# squares = my_map(cube, [1, 2, 3, 4, 5])
+
+# print(squares)
