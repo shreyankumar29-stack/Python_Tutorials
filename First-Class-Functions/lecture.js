@@ -1,3 +1,4 @@
+//Example1
 // function square(x)
 // {
 //     return x * x
@@ -8,7 +9,7 @@
 // console.log(square)
 // console.log(f(5))
 
-
+//Example2:
 // function square(x)
 // {
 //     return x * x
@@ -30,3 +31,32 @@
 // {
 //     return x * x * x; 
 // }
+
+//Example 3:
+// function logger(msg)
+// {
+//      function log_message()
+//      { 
+//         console.log('Log: ' + msg)
+//      }
+// return log_message
+//     }
+// log_hi = logger('Hi!') 
+// log_hi()
+
+//Example4:
+
+function html_tag(tag)
+{
+    function wrap_text(msg){
+        console.log('<' + tag + '>' + msg + '</' +tag+ '>')
+    }
+    return wrap_text
+}
+
+print_h1 = html_tag('h1')
+print_h1('Test Headline!')
+print_h1('Another Headtine!')
+
+print_p = html_tag('p') 
+print_p('Test Paragraph!')
