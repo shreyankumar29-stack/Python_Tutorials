@@ -6,7 +6,7 @@ class Employee:     #no attributes defined yet
         self.email = first + '.' + last + '@company.com'
 
     # method to display full name of employee
-    def fullname():
+    def fullname(self):
         return '{} {}'.format(self.first, self.last)
 # The instance is passed automatically
 
@@ -27,5 +27,6 @@ emp_2 = Employee('Jane', 'Smith', 60000)
 
 # If we left the parenthesis empty, it will give an error because the instance is passed automatically to the method. So we need to pass the instance as an argument to the method.
 print(emp_1.fullname())
+Employee.fullname(emp_1)
 # print(emp_2.fullname())
 
