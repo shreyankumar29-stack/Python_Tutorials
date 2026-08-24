@@ -1,4 +1,3 @@
-Learning Concepts 
+Foundations of Python 
 
 
-Instructor: Corey MSSchafer
